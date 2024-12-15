@@ -174,7 +174,7 @@ def get_language(code: str) -> str:
     return languages.get(code, "Language not found")
 
 
-def(main):
+def main():
     code = event.get("Language")
     get_language(code)
 
