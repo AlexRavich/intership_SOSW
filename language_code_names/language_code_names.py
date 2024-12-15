@@ -74,7 +74,6 @@ languages = {
     "si": "Sinhala",
     "am": "Amharic",
     "yo": "Yoruba",
-    "ig": "Igbo",
     "ha": "Hausa",
     "zu": "Zulu",
     "xh": "Xhosa",
@@ -111,7 +110,7 @@ def get_language(code: str) -> str:
 
 
 def(main):
-    code = event.get["Language"]
+    code = event.get("Language")
     get_language(code)
 
 
